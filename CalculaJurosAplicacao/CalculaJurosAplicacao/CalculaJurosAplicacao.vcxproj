@@ -152,7 +152,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CalculaJuros.cpp" />
     <ClCompile Include="CalculaJurosAplicacao.cpp" />
+    <ClCompile Include="CalculaMontanteFinal.cpp" />
+    <ClCompile Include="CalculaMontanteInicial.cpp" />
+    <ClCompile Include="CalculaTempoDeInvestimento.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalculaJuros.h" />
+    <ClInclude Include="CalculaMontanteFinal.h" />
+    <ClInclude Include="CalculaMontanteInicial.h" />
+    <ClInclude Include="CalculaTempoDeInvestimento.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
